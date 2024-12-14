@@ -44,6 +44,8 @@ import { formatCurrency } from './utils/money.js';
                     </select>
                 </div>
 
+                ${product.extraInfoHTML()}
+                
                 <div class="product-spacer"></div>
 
                 <div class="added-to-cart">
