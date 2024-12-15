@@ -1,6 +1,6 @@
 const xhr = new XMLHttpRequest();
 
-xhr,addEventListener('load', () => {
+xhr.addEventListener('load', () => {
     xhr.response; 
   });
 
